@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteName">
+        <test name="SwipeTest">
+            <classes>
+                <class name="iOSSwipeTest"/>
+            </classes>
+        </test>
+    <test name="IOSScroll">
+        <classes>
+            <class name="iOSScrollTest"/>
+        </classes>
+    </test>
+    <test name="IOSLongpress">
+        <classes>
+            <class name="iOSLongpress"/>
+        </classes>
+    </test>
+    <test name="IOSinbuilt">
+        <classes>
+            <class name="iOSInBuiltBaseTest"/>
+        </classes>
+    </test>
+    <test name="IOSBasicsTest">
+        <classes>
+            <class name="IOSBasics"/>
+        </classes>
+    </test>
+
+</suite>
